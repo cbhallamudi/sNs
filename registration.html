@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<title>SHEARMAN AND STERLING</title>
+	<link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="./src/fonts/stylesheet.css">
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+	
+	<section class="registration-main-container">
+		<div class="registration-left-div">
+			<h2>register account!</h2>
+			<p>lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+		</div>
+		<div class="registration-right-div">
+			<div class="registration-right-div-top">
+				<a href="" class="reg-page-back-opt">
+					<img src="./src/images/arrow_back_ios_24px.svg" alt="arrow"> Back
+				</a>
+				<p class="reg-page-sign-in-option">Already have an account? <a href="">Sign In</a></p>
+			</div>
+			<form action="" class="registration-right-div-form">
+				<div class="form-group">
+					<label for="" class="reg-label">
+						Your fullname*
+					</label>
+					<input class="reg-form-input" type="text" name="reg_full_name" id="reg-full-name" placeholder="Full Name">
+				</div>
+				<div class="form-group">
+					<label for="" class="reg-label">
+						Email address*
+					</label>
+					<input class="reg-form-input" type="text" name="reg_email" id="reg-email" placeholder="Enter email address">
+				</div>
+				<div class="form-group">
+					<label for="" class="reg-label">
+						Create password*
+					</label>
+					<input class="reg-form-input" type="text" name="reg_password" id="reg-password" placeholder="Enter password">
+				</div>
+				<div class="form-group phone-number-group">
+					<label for="" class="reg-label">
+						Phone number
+					</label>
+					<input class="reg-form-input phone-number-input" type="text" name="reg_phone" id="reg-phone">
+
+					<div class="country-code-group">
+						<img src="./src/images/flag.png" alt="">
+						<select class="reg-country-code" name="reg_country_code" id="reg-country-code">
+							<option value="UK">+44</option>
+							<option value="USA">+1</option>
+							<option value="IND">+91</option>
+
+						</select>
+					</div>
+					<span></span>
+				</div>
+				<div class="form-group">
+					<label for="" class="reg-label">
+						Your address
+					</label>
+					<input class="reg-form-input" type="text" name="reg_address" id="reg-address" placeholder="Please enter address">
+
+				</div>
+				<div class="form-group">
+					<label for="" class="reg-label">
+						Country of residence
+					</label>
+					<select class="reg-form-input" name="reg_country" id="reg-country">
+						
+						<option value="-1" class="dummy-option">please select</option>
+						<option value="IND">india</option>
+						<option value="USA">united states of america</option>
+						<option value="UK">united kingdom</option>
+
+					</select>
+				</div>
+				<div class="form-group check-box-group">
+					<label for="" class="reg-checkbox-label">
+						<input class="reg-form-checkbox" type="checkbox" name="reg_agreement" id="reg-agreement"> <span>I agree to terms & conditions</span>
+					</label>
+					
+				</div>
+				<div class="form-group">
+					<input class="reg-form-input" type="submit" value="Register Account" id="reg-full-name">
+				</div>
+			</form>				
+		</div>
+	</section>
+
+	<script src="./js/scripts.js"></script>
+</body>
+</html>
